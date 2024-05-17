@@ -1,0 +1,8 @@
+ALTER DATABASE TiendaLibre SET EMERGENCY;
+GO
+ALTER DATABASE TiendaLibre set single_user
+GO
+DBCC CHECKDB (TiendaLibre, REPAIR_ALLOW_DATA_LOSS) WITH ALL_ERRORMSGS;
+GO
+ALTER DATABASE TiendaLibre set multi_user
+GO

@@ -1,0 +1,15 @@
+<div class="container">
+    <svg [attr.xmlns]="xmlns" [attr.viewBox]="viewBox">
+        <path [attr.d]="d"/>
+    </svg>
+
+    <div [class]="iconClicked ? 'list-container' : 'list-container-remove'">
+        <ul class="list-items">
+            <li *ngFor="let item of items">
+                <app-menu-item [item]="item"></app-menu-item>
+            </li>
+        </ul>
+    </div>
+    
+</div>
+

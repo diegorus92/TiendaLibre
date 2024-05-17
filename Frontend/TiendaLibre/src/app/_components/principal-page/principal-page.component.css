@@ -1,0 +1,8 @@
+.container-articles{
+    display:flex;
+    gap: 10%;
+}
+
+.article{
+    width: 20%;
+}

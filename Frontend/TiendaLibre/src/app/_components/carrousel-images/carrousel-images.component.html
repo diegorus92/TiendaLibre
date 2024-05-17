@@ -1,0 +1,17 @@
+<div class="container-carrousel{{heightsComponentOptions[heightComponentSelection]}}">
+    <img *ngIf="isImageAvailable"
+        class = "images{{heightsComponentOptions[heightComponentSelection]}}"
+        src = "data:image/jpg;base64,{{productImages[this.currentItemPosition].dataImage}}"
+        alt="test_image"
+    >
+    <img *ngIf="!isImageAvailable"
+        class = "images{{heightsComponentOptions[heightComponentSelection]}}"
+        src = "{{productImages[this.currentItemPosition].dataImage}}"
+        alt="test_image"
+    >
+
+    <div class="carrousel-buttons{{heightsComponentOptions[heightComponentSelection]}}">
+        <button (click)="previousItem()"> < </button>
+        <button (click)="nextItem()"> > </button>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<!--<app-menu-bar></app-menu-bar>-->
+
+<p>principal-page works!</p>
+<div *ngIf="userEmail">
+    <p><b>Welcome!</b> {{userEmail}}</p>
+</div>
+
+<div class="container-articles">
+    <app-article-card class="article" *ngFor="let product of productsInfo"
+    [product] = "product"
+></app-article-card>
+</div>

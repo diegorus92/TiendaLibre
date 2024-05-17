@@ -1,0 +1,42 @@
+[
+  {
+    "productId": 1,
+    "productName": "Keyboard",
+    "productCategory": "Informatic",
+    "productBrand": "Genius",
+    "productModel": "Gamer-RGB-384ZR",
+    "price": 25500.99,
+    "stockQty": 22,
+    "userSellerId": 1
+  },
+  {
+    "productId": 2,
+    "productName": "Graphic Card",
+    "productCategory": "Informatic",
+    "productBrand": "Zotac",
+    "productModel": "3080RTX",
+    "price": 350000.94,
+    "stockQty": 9,
+    "userSellerId": 1
+  },
+  {
+    "productId": 3,
+    "productName": "Headphones",
+    "productCategory": "Electronic",
+    "productBrand": "Philips",
+    "productModel": "HP-876RGB",
+    "price": 35450.9,
+    "stockQty": 12,
+    "userSellerId": 1
+  },
+  {
+    "productId": 4,
+    "productName": "Mouse",
+    "productCategory": "Informatic",
+    "productBrand": "Logitec",
+    "productModel": "M-RGB3000",
+    "price": 42690.99,
+    "stockQty": 32,
+    "userSellerId": 1
+  }
+]

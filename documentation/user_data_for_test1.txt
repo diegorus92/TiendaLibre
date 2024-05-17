@@ -1,0 +1,42 @@
+34878766
+Pepe
+Martinez
+pepe_martinez33@gmail.com
+1234
+
+{
+  "userId": 1,
+  "userEmail": "pepe_martinez33@gmail.com",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicGVwZV9tYXJ0aW5lejMzQGdtYWlsLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6Im5vcm1hbCIsImV4cCI6MTcxMzU5NjY4MX0.0dkC3-GwkHpGOjJfR0SX8KkX_QVVCaBsE3tCYaz8aEM"
+}
+
+
+
+[
+  {
+    "productId": 1, //Duplicate product in purchase list. This should throw Exception
+    "qtyToBuy": 3,
+    "userCostumerId": 2
+  },
+  {
+    "productId": 4,
+    "qtyToBuy": 3,
+    "userCostumerId": 2
+  },
+  {
+    "productId": 3,
+    "qtyToBuy": 3,
+    "userCostumerId": 2
+  },
+  {
+    "productId": 1,	//Duplicate product in purchase list. This should throw Exception
+    "qtyToBuy": 1,
+    "userCostumerId": 2
+  }
+]
+
+{
+  "purchaseId": 1,
+  "userCostumerId": 2,
+  "productSelledId": 1
+}

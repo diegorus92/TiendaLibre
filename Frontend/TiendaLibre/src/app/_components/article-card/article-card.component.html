@@ -1,0 +1,30 @@
+<div class="container">
+    <ng-container *ngIf="product.productImages.length > 0; else without_images">
+         <app-carrousel-images 
+            [productImages]="product.productImages"
+            [isImageAvailable]="true">
+        </app-carrousel-images> <!--contain the list of a product' images-->
+    </ng-container>
+    <ng-template #without_images>
+        <app-carrousel-images 
+            [productImages]="noProductImages"
+            [isImageAvailable]="false"
+        ></app-carrousel-images>
+    </ng-template>
+
+    <div class="container-info" (click)="viewArticle()">
+        <h3>{{product.productName}}</h3> 
+        <p class="pharagraph-color"><i><b>{{product.productBrand}}</b></i></p>
+        <span class="pharagraph-color">{{product.productModel}}</span>
+        <h2 class="price-position">$<b>{{product.price}}</b></h2>
+    </div>
+
+</div>
+
+<!--<div *ngFor="let image of images">
+    <img 
+        src="data:image/jpg;base64,{{image}}" alt=""
+    >
+</div>-->
+
+

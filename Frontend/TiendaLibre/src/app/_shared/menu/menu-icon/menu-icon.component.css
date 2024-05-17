@@ -1,0 +1,55 @@
+svg{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+svg:hover{
+    fill:rgb(214, 214, 214);
+    transition-duration: 0.3s;
+
+}
+
+.container{
+    position:relative;
+    right: 70%;
+    width: 70%;
+}
+
+.list-container{  /*Father style of list items for User Icon*/
+    position: absolute;
+    background-color: rgb(214, 214, 3);
+    border-radius: 0 0 10px 10px;
+    left: -30%;
+    top: 64px;
+
+    animation-name: show-list-items;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+.list-container-remove{
+    display: none;
+}
+
+.list-items{
+    position:relative;
+    list-style-type: none;
+    right: 35%;
+}
+
+.list-items  li{
+    position: relative;
+    margin-top: 20px;
+}
+
+
+@keyframes show-list-items {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}

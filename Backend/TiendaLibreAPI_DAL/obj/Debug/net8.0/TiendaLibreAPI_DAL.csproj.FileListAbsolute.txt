@@ -1,0 +1,14 @@
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\bin\Debug\net8.0\TiendaLibreAPI_DAL.deps.json
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\bin\Debug\net8.0\TiendaLibreAPI_DAL.runtimeconfig.json
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\bin\Debug\net8.0\TiendaLibreAPI_DAL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\bin\Debug\net8.0\TiendaLibreAPI_DAL.pdb
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\obj\Debug\net8.0\TiendaLibreAPI_DAL.csproj.AssemblyReference.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\obj\Debug\net8.0\TiendaLibreAPI_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\obj\Debug\net8.0\TiendaLibreAPI_DAL.AssemblyInfoInputs.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\obj\Debug\net8.0\TiendaLibreAPI_DAL.AssemblyInfo.cs
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\obj\Debug\net8.0\TiendaLibreAPI_DAL.csproj.CoreCompileInputs.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\obj\Debug\net8.0\TiendaLibreAPI_DAL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\obj\Debug\net8.0\refint\TiendaLibreAPI_DAL.dll
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\obj\Debug\net8.0\TiendaLibreAPI_DAL.pdb
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\obj\Debug\net8.0\TiendaLibreAPI_DAL.genruntimeconfig.cache
+C:\Diego\proyectos\Programación\Proyectos FULLSTACK\TiendaLibre\Backend\TiendaLibreAPI_DAL\obj\Debug\net8.0\ref\TiendaLibreAPI_DAL.dll

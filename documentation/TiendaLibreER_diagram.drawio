@@ -1,0 +1,539 @@
+<mxfile host="Electron" modified="2024-04-24T06:51:43.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.0.2 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="R7o5JvaAcFqKFFjimG9p" version="23.0.2" type="device">
+  <diagram name="Página-1" id="rq1S1vTFdVUCDaFgAIRQ">
+    <mxGraphModel dx="2827" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="User" name="VARCHAR(50) NOT NULL" cellphone="VARCHAR(50) NULL" direction="VARCHAR (255) NULL" age="INT NOT NULL" email="VARCHAR (255) NOT NULL " id="LZ-pekwYVDbs2xovQ_Os-1">
+          <mxCell style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+            <mxGeometry x="70" y="75" width="250" height="510" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-2" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="30" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-3" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="LZ-pekwYVDbs2xovQ_Os-2" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-4" value="UserId INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="LZ-pekwYVDbs2xovQ_Os-2" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-5" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="60" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-6" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-5" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-7" value="UserName char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-5" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-8" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-9" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-8" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-10" value="UserLastName char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-8" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-11" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="120" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-12" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-11" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-13" value="UserDNI char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-11" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="150" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-15" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-14" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-16" value="UserBirthdate DATE NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-14" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="180" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-21" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-20" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-22" value="UserEmail char(100) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-20" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-23" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="210" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-24" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-23" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-25" value="UserCellphone char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-23" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-26" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="240" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-27" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-26" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-28" value="UserAddress char(200) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-26" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-29" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="270" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-30" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-29" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-31" value="UserCountry char(25) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-29" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-32" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="300" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-33" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-32" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-34" value="UserCity char(25) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-32" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-35" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="330" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-36" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-35" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-37" value="UserPwHash VARBINARY NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-35" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-38" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="360" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-39" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-38" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-40" value="UserPwSalt VARBINARY(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-38" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="390" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-18" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-17" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-19" value="UserRegisterDate DATE NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-17" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzokR2y8pn8Bv1VemknS-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="420" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mzokR2y8pn8Bv1VemknS-2" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="mzokR2y8pn8Bv1VemknS-1" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzokR2y8pn8Bv1VemknS-3" value="UserRole char(15) DEFAULT &#39;normal&#39;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="mzokR2y8pn8Bv1VemknS-1" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-44" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-1" vertex="1">
+          <mxGeometry y="450" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-45" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-44" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-46" value="UserProfileImage char(50) NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-44" vertex="1">
+          <mxGeometry x="30" width="220" height="30" as="geometry">
+            <mxRectangle width="220" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="LZ-pekwYVDbs2xovQ_Os-47" target="LZ-pekwYVDbs2xovQ_Os-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Product" name="VARCHAR(50) NOT NULL" cellphone="VARCHAR(50) NULL" direction="VARCHAR (255) NULL" age="INT NOT NULL" email="VARCHAR (255) NOT NULL " id="LZ-pekwYVDbs2xovQ_Os-47">
+          <mxCell style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+            <mxGeometry x="330" y="650" width="281" height="340" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-48" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="LZ-pekwYVDbs2xovQ_Os-47" vertex="1">
+          <mxGeometry y="30" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-49" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="LZ-pekwYVDbs2xovQ_Os-48" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-50" value="ProductId INT NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="LZ-pekwYVDbs2xovQ_Os-48" vertex="1">
+          <mxGeometry x="30" width="251" height="30" as="geometry">
+            <mxRectangle width="251" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-51" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-47" vertex="1">
+          <mxGeometry y="60" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-52" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-51" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-53" value="ProductName char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-51" vertex="1">
+          <mxGeometry x="30" width="251" height="30" as="geometry">
+            <mxRectangle width="251" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-54" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-47" vertex="1">
+          <mxGeometry y="90" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-55" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-54" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-56" value="ProductCategory char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-54" vertex="1">
+          <mxGeometry x="30" width="251" height="30" as="geometry">
+            <mxRectangle width="251" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lD6jXWn2Kce93VBf5OQf-1" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-47" vertex="1">
+          <mxGeometry y="120" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lD6jXWn2Kce93VBf5OQf-2" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="lD6jXWn2Kce93VBf5OQf-1" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lD6jXWn2Kce93VBf5OQf-3" value="ProductBrand char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="lD6jXWn2Kce93VBf5OQf-1" vertex="1">
+          <mxGeometry x="30" width="251" height="30" as="geometry">
+            <mxRectangle width="251" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-57" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-47" vertex="1">
+          <mxGeometry y="150" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-58" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-57" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-59" value="ProductModel char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-57" vertex="1">
+          <mxGeometry x="30" width="251" height="30" as="geometry">
+            <mxRectangle width="251" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-60" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-47" vertex="1">
+          <mxGeometry y="180" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-61" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-60" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-62" value="ProductPrice FLOAT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-60" vertex="1">
+          <mxGeometry x="30" width="251" height="30" as="geometry">
+            <mxRectangle width="251" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-63" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-47" vertex="1">
+          <mxGeometry y="210" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-64" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-63" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-65" value="ProductStockQty INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-63" vertex="1">
+          <mxGeometry x="30" width="251" height="30" as="geometry">
+            <mxRectangle width="251" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-66" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-47" vertex="1">
+          <mxGeometry y="240" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-67" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4" parent="LZ-pekwYVDbs2xovQ_Os-66" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-68" value="ProductUserSellerId INT(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-66" vertex="1">
+          <mxGeometry x="30" width="251" height="30" as="geometry">
+            <mxRectangle width="251" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=ERoneToMany;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="LZ-pekwYVDbs2xovQ_Os-44" target="LZ-pekwYVDbs2xovQ_Os-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="ProductImage" name="VARCHAR(50) NOT NULL" cellphone="VARCHAR(50) NULL" direction="VARCHAR (255) NULL" age="INT NOT NULL" email="VARCHAR (255) NOT NULL " id="LZ-pekwYVDbs2xovQ_Os-73">
+          <mxCell style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+            <mxGeometry x="380" y="1060" width="310" height="190" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-74" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="LZ-pekwYVDbs2xovQ_Os-73" vertex="1">
+          <mxGeometry y="30" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-75" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="LZ-pekwYVDbs2xovQ_Os-74" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-76" value="ProductImageId INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="LZ-pekwYVDbs2xovQ_Os-74" vertex="1">
+          <mxGeometry x="30" width="280" height="30" as="geometry">
+            <mxRectangle width="280" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-77" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-73" vertex="1">
+          <mxGeometry y="60" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-78" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-77" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-79" value="ProductImageName char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-77" vertex="1">
+          <mxGeometry x="30" width="280" height="30" as="geometry">
+            <mxRectangle width="280" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-80" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-73" vertex="1">
+          <mxGeometry y="90" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-81" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4" parent="LZ-pekwYVDbs2xovQ_Os-80" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-82" value="ProductId INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-80" vertex="1">
+          <mxGeometry x="30" width="280" height="30" as="geometry">
+            <mxRectangle width="280" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Purchase" name="VARCHAR(50) NOT NULL" cellphone="VARCHAR(50) NULL" direction="VARCHAR (255) NULL" age="INT NOT NULL" email="VARCHAR (255) NOT NULL " id="LZ-pekwYVDbs2xovQ_Os-84">
+          <mxCell style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+            <mxGeometry x="-330" y="700" width="411" height="250" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-85" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="LZ-pekwYVDbs2xovQ_Os-84" vertex="1">
+          <mxGeometry y="30" width="411" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-86" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="LZ-pekwYVDbs2xovQ_Os-85" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-87" value="PurchaseId INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="LZ-pekwYVDbs2xovQ_Os-85" vertex="1">
+          <mxGeometry x="30" width="381" height="30" as="geometry">
+            <mxRectangle width="381" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qirTiR-BN7r_qpfLH_8y-12" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="LZ-pekwYVDbs2xovQ_Os-84">
+          <mxGeometry y="60" width="411" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qirTiR-BN7r_qpfLH_8y-13" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4" vertex="1" parent="qirTiR-BN7r_qpfLH_8y-12">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qirTiR-BN7r_qpfLH_8y-14" value="QtyToBuy INT NOT NULL DEFAULT 1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="qirTiR-BN7r_qpfLH_8y-12">
+          <mxGeometry x="30" width="381" height="30" as="geometry">
+            <mxRectangle width="381" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qirTiR-BN7r_qpfLH_8y-15" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="LZ-pekwYVDbs2xovQ_Os-84">
+          <mxGeometry y="90" width="411" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qirTiR-BN7r_qpfLH_8y-16" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4" vertex="1" parent="qirTiR-BN7r_qpfLH_8y-15">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qirTiR-BN7r_qpfLH_8y-17" value="PurchaseState VARCHAR NOT NULL DEFAULT  &quot;in preparation&quot;" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="qirTiR-BN7r_qpfLH_8y-15">
+          <mxGeometry x="30" width="381" height="30" as="geometry">
+            <mxRectangle width="381" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-88" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-84" vertex="1">
+          <mxGeometry y="120" width="411" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-89" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4" parent="LZ-pekwYVDbs2xovQ_Os-88" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-90" value="ProductId INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-88" vertex="1">
+          <mxGeometry x="30" width="381" height="30" as="geometry">
+            <mxRectangle width="381" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-94" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-84" vertex="1">
+          <mxGeometry y="150" width="411" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-95" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4" parent="LZ-pekwYVDbs2xovQ_Os-94" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-96" value="UserCostumerId INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-94" vertex="1">
+          <mxGeometry x="30" width="381" height="30" as="geometry">
+            <mxRectangle width="381" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" parent="1" source="LZ-pekwYVDbs2xovQ_Os-84" target="LZ-pekwYVDbs2xovQ_Os-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERone;endFill=0;startArrow=ERoneToMany;startFill=0;" parent="1" target="lD6jXWn2Kce93VBf5OQf-1" edge="1" source="LZ-pekwYVDbs2xovQ_Os-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20" y="815" as="sourcePoint" />
+            <mxPoint x="-10" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=ERone;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="LZ-pekwYVDbs2xovQ_Os-103" target="LZ-pekwYVDbs2xovQ_Os-84" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <object label="Announcement" name="VARCHAR(50) NOT NULL" cellphone="VARCHAR(50) NULL" direction="VARCHAR (255) NULL" age="INT NOT NULL" email="VARCHAR (255) NOT NULL " id="LZ-pekwYVDbs2xovQ_Os-103">
+          <mxCell style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+            <mxGeometry x="-390" y="190" width="330" height="250" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-104" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="LZ-pekwYVDbs2xovQ_Os-103" vertex="1">
+          <mxGeometry y="30" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-105" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="LZ-pekwYVDbs2xovQ_Os-104" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-106" value="AnnouncementId INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="LZ-pekwYVDbs2xovQ_Os-104" vertex="1">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-107" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-103" vertex="1">
+          <mxGeometry y="60" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-108" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-107" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-109" value="AnnouncementMessage char(250) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-107" vertex="1">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-110" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-103" vertex="1">
+          <mxGeometry y="90" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-111" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="LZ-pekwYVDbs2xovQ_Os-110" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-112" value="AnnouncementRead BIT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-110" vertex="1">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-113" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-103" vertex="1">
+          <mxGeometry y="120" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-114" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4" parent="LZ-pekwYVDbs2xovQ_Os-113" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-115" value="UserReceiverId INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-113" vertex="1">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-116" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="LZ-pekwYVDbs2xovQ_Os-103" vertex="1">
+          <mxGeometry y="150" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-117" value="FK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=4" parent="LZ-pekwYVDbs2xovQ_Os-116" vertex="1">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ-pekwYVDbs2xovQ_Os-118" value="PurchaseId INT NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="LZ-pekwYVDbs2xovQ_Os-116" vertex="1">
+          <mxGeometry x="30" width="300" height="30" as="geometry">
+            <mxRectangle width="300" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzokR2y8pn8Bv1VemknS-5" value="&lt;h1 style=&quot;line-height: 0%;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;PURCHASE TABLE&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font color=&quot;#050505&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font color=&quot;#050505&quot; style=&quot;font-size: 16px;&quot;&gt;UserSellerId it going to be taking from PRODUCT TABLE using ProductID&lt;/font&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;i style=&quot;&quot;&gt;&lt;font color=&quot;#050505&quot; style=&quot;font-size: 16px;&quot;&gt;Foreign Key&lt;/font&gt;&lt;/i&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-330" y="1030" width="610" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mzokR2y8pn8Bv1VemknS-6" value="" style="shape=flexArrow;endArrow=block;startArrow=none;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#B20000;fillColor=#e51400;endFill=0;startFill=0;" parent="1" source="mzokR2y8pn8Bv1VemknS-5" target="LZ-pekwYVDbs2xovQ_Os-84" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-50" y="990" as="sourcePoint" />
+            <mxPoint x="50" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mzokR2y8pn8Bv1VemknS-8" value="&lt;h1 style=&quot;line-height: 0%;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;ANNOUNCEMENT TABLE&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;font color=&quot;#050505&quot;&gt;&lt;i&gt;When a Buy it&#39;s made, two Announcement are sending,&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;font color=&quot;#050505&quot;&gt;&lt;i&gt;one from UserSeller and the other for the UserCostumer.&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;font color=&quot;#050505&quot;&gt;&lt;i&gt;UserReceiverId field will have the Seller ID(User) and save&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;font color=&quot;#050505&quot;&gt;&lt;i&gt;The announcement&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;font color=&quot;#050505&quot;&gt;&lt;i&gt;for that user, and after, UserReceiver field will have&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;font color=&quot;#050505&quot;&gt;&lt;i&gt;the Costumer ID(otherUser), and save the new announcement.&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;font color=&quot;#050505&quot;&gt;&lt;i&gt;UserCostumerId it going to get from PURCHASE TABLE, and&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;font color=&quot;#050505&quot;&gt;&lt;i&gt;UserSellerId, using ProductId,&amp;nbsp; we search UserSellerId&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 0%; font-size: 16px;&quot;&gt;&lt;font color=&quot;#050505&quot;&gt;&lt;i&gt;i&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;color: rgb(5, 5, 5); background-color: initial;&quot;&gt;nto PRODUCT TABLE&lt;/i&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-1180" y="170" width="580" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="mzokR2y8pn8Bv1VemknS-9" value="" style="shape=flexArrow;endArrow=block;startArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#B20000;fillColor=#e51400;endFill=0;startFill=0;" parent="1" source="mzokR2y8pn8Bv1VemknS-8" target="LZ-pekwYVDbs2xovQ_Os-113" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-370" y="770" as="sourcePoint" />
+            <mxPoint x="-367" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

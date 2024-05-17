@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="carrousel">
+        <app-carrousel-images 
+            [productImages]="product.productImages"
+            [isImageAvailable]="false"
+            [heightComponentSelection]="1"
+        ></app-carrousel-images>
+    </div>
+    <div class="product-info">
+        <h2>{{product.productName}}</h2>
+        <section class="product-brand-model">
+            <span>{{product.productBrand}} - </span>
+            <span>{{product.productModel}}</span>
+        </section>
+        <h1>${{product.price}}</h1>
+        
+        <form class="example-form">
+            <mat-form-field class="example-full-width">
+              <mat-label>Cantidad a comprar</mat-label>
+              <input matInput type="number" min="0" placeholder="cantidad..." value="0">
+            </mat-form-field>
+        </form>
+
+        <section class="buttons">
+            <app-button [buttonText]="'Add To Cart'"></app-button>
+        </section>
+    </div>
+</div>
+

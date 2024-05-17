@@ -1,0 +1,21 @@
+.container{
+    width:100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(51, 50, 50) 1px solid;
+    border-radius: 15px;
+}
+
+.container:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 5px rgb(128, 128, 128) ;
+    transition:linear 0.5s;
+}
+
+.pharagraph-color{
+    color: rgb(94, 94, 94);
+}
+
+.price-position{
+    text-align: right;
+}

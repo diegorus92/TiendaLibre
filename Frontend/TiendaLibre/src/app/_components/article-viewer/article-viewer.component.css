@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    background-color: white;
+}
+
+
+.carrousel{
+    width: 60%;
+}
+
+.product-brand-model{
+    display: inline-block;
+    width: 100%;
+}
+
+.product-brand-model :nth-child(1){
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.product-brand-model :nth-child(2){
+    color: rgb(75, 75, 75);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+
+.buttons{
+    width: 100%;
+    height: 5%;
+}

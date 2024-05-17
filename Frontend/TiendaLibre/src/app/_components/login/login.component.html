@@ -1,0 +1,24 @@
+<!--<app-menu-bar></app-menu-bar>-->
+
+<div class="login-super-container">
+        <div class="login-container">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit($event)">
+            <section>
+                <mat-form-field>
+                    <mat-label>Email</mat-label>
+                    <input matInput type="email" placeholder="my_email@email.com" formControlName="email">
+                </mat-form-field>
+            </section>
+            
+            <section>
+                <mat-form-field>
+                    <mat-label>password</mat-label>
+                    <input matInput type="password" formControlName="password">
+                </mat-form-field>
+            </section>
+
+            <button mat-flat-button type="submit" color="primary">Login</button>
+        </form>
+    </div>
+</div>
+
